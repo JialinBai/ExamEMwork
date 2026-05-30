@@ -1,0 +1,11 @@
+[ Doctor Prescribes Drug ]
+        ↓
+[ API Gateway + Auth ]
+        ↓   
+[ Drug Interaction Service ] ←→ [ Drug Database (Drug Information, Drug Interactions, Contraindications) ]
+        |
+        |→[ AI Model Engine ] → [ Knowledge Base (Clinical Research) ]
+        ↓
+[ Decision Module ] → [ Log & Audit System ]
+        ↓
+[ Display: Information / Warnings / Recommendations ]
